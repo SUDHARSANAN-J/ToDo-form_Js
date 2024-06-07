@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Simple ToDO form</title>
+    </head>
+
+    <body>
+        <center>
+        <table id="one" border="2">
+            
+            <tr>
+                <td><b>Name</td>
+                <td><input type="text" id="a"></td>
+            </tr>
+            
+            <tr>
+                <td><b>Age</td>
+                <td><input type="Number" id="b"></td>
+            </tr>
+            
+            <tr>
+                <td><b>Gender</td>
+                <td><input type="radio" name="gender" value="male">male <input type="radio" name="gender" value="female">female</td> 
+            </tr>
+            
+            <tr >
+                <td><b>Course</td>
+                <td><select style="width: 170px;" id="d">
+                    <option>Javascript</option>
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>HTML and CSS</option>
+                </select></td>
+            </tr>
+            
+            <tr>
+                <td><b>Email</td>
+                <td><input type="email" id="e"></td>
+            </tr>
+
+            <tr>
+                <th  colspan="2" id="save" onclick="saveinfo()">
+                Save
+                </th>
+            </tr>
+            
+        </table>
+        <br>
+        <br>
+
+        <table border="2" id="a1">
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>GENDER</th>
+                <th>COURSE</th>
+                <th>EMAIL</th>
+                <th>ACTION</th>
+            </tr>
+            
+        </table>
+    </center>
+
+    <script src="Script.js"></script>
+
+    </body>
+</html>
+
+
+
+<style>
+    #one{
+        padding:5px;
+    }
+</style>
+
+
+
+
+
